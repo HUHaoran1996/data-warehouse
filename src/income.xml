@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Schema name="Mondrian">
+    <Cube name="IncomeAnalyze">
+        <!-- income_fact table -->
+        <Table name="Income_Fact" />
+        <!-- age dimension -->
+        <Dimension name="age" foreignKey="ageId">
+            <Hierarchy hasAll="true" allMemberName="allAge" primaryKey="ageId">
+                <Table name="Age"></Table>
+                <Level name="ageInterval" visible="true" column="textDecs" type="String"/>
+            </Hierarchy>
+        </Dimension>
+        <!-- country dimension -->
+        <Dimension visible="true" name="country" foreignKey="countryId">
+            <Hierarchy hasAll="true" allMemberName="allCountry" primaryKey="countryId">
+                <Table name="Country"></Table>
+                <Level name="countryName" visible="true" column="textDecs" type="String"/>
+            </Hierarchy>
+        </Dimension>
+        <!-- education dimension -->
+        <Dimension name="education" foreignKey="educationId">
+            <Hierarchy hasAll="true" allMemberName="allEducation" primaryKey="educationId">
+                <Table name="Education"></Table>
+                <Level name="education" column="textDecs" />
+            </Hierarchy>
+        </Dimension>
+        <!-- income dimension -->
+        <Dimension name="income" foreignKey="incomeId">
+            <Hierarchy hasAll="true" allMemberName="allIncome" primaryKey="incomeId">
+                <Table name="Income"></Table>
+                <Level name="income" column="textDecs" />
+            </Hierarchy>
+        </Dimension>
+        <Measure name="userCount" column="userid" aggregator="distinct-count" />
+    </Cube>
+</Schema>

@@ -1,0 +1,352 @@
+<html xmlns="http://www.w3.org/TR/REC-html40" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta name="ProgId content=Excel.Sheet"/>
+<style>
+            table
+            {mso-displayed-decimal-separator:"\.";
+            mso-displayed-thousand-separator:"\,";}
+
+            @page
+                    {margin:1.0in .75in 1.0in .75in;
+                    mso-header-margin:.5in;
+                    mso-footer-margin:.5in;}
+            tr
+                    {mso-height-source:auto;}
+            col
+                    {mso-width-source:auto;}
+            br
+                    {mso-data-placement:same-cell;}
+            .basestyle
+                    {mso-number-format:General;
+                    text-align:general;
+                    vertical-align:bottom;
+                    white-space:nowrap;
+                    mso-rotate:0;
+                    mso-background-source:auto;
+                    mso-pattern:auto;
+                    color:windowtext;
+                    font-size:10.0pt;
+                    font-weight:400;
+                    font-style:normal;
+                    text-decoration:none;
+                    font-family:Arial;
+                    mso-generic-font-family:auto;
+                    mso-font-charset:0;
+                    border:none;
+                    mso-protection:locked visible;
+                    mso-style-name:Normal;
+                    mso-style-id:0;}
+
+              .col-heading
+                    {mso-style-parent:basestyle;
+                    font-weight:700;
+                    font-family:"Arial Unicode MS";
+                    mso-generic-font-family:auto;
+                    mso-font-charset:0;
+                    text-align:left;
+                    vertical-align:middle;
+                    border:.5pt solid black;
+                    mso-pattern:auto none;}
+
+              .row-heading
+                    {mso-style-parent:basestyle;
+                    font-weight:700;
+                    font-family:"Arial Unicode MS";
+                    mso-generic-font-family:auto;
+                    mso-font-charset:0;
+                    text-align:left;
+                    vertical-align:top;
+                    border-top:.5pt solid black;
+                    border-right:.5pt solid black;
+                    border-bottom:none;
+                    border-left:.5pt solid black;
+                    mso-pattern:auto none;}
+
+              .dataitem
+                    {mso-style-parent:basestyle;
+                    font-family:"Arial Unicode MS";
+                    mso-generic-font-family:auto;
+                    mso-font-charset:0;
+                    
+                    
+                    text-align:right;
+                    vertical-align:top;
+                    border:.5pt solid black;
+                    background:white;
+                    mso-pattern:auto none;}
+            </style>
+</head>
+<body>
+<table border="1">
+<tr>
+<th rowspan="3" colspan="2" bgcolor="#FFFFFF" nowrap="nowrap" vertical-align="top" text-align="left">&nbsp;</th>
+<th rowspan="1" colspan="2" nowrap="nowrap" vertical-align="top" text-align="left" class="col-heading" bgcolor="#F0F0F0">&#25351;&#26631;</th>
+</tr>
+<tr>
+<th rowspan="1" colspan="2" nowrap="nowrap" vertical-align="top" text-align="left" class="col-heading" bgcolor="#C0C0C0">userCount</th>
+</tr>
+<tr>
+<th rowspan="1" colspan="2" nowrap="nowrap" vertical-align="top" text-align="left" class="col-heading" bgcolor="#F0F0F0">income</th>
+</tr>
+<tr>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="col-heading" bgcolor="#C0C0C0">country</th>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="col-heading" bgcolor="#C0C0C0">education</th>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="col-heading" bgcolor="#C0C0C0">Less than 50K</th>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="col-heading" bgcolor="#C0C0C0">More than 50K</th>
+</tr>
+<tr>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#F0F0F0">allCountry</th>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#F0F0F0">allEducation</th>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\,\#\#0" x:num="24720.0">24,720</td>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\,\#\#0" x:num="7841.0">7,841</td>
+</tr>
+<tr>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#C0C0C0">Cambodia</th>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#C0C0C0">allEducation</th>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="12.0">12</td>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="7.0">7</td>
+</tr>
+<tr>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#F0F0F0">Canada</th>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#F0F0F0">allEducation</th>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="82.0">82</td>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="39.0">39</td>
+</tr>
+<tr>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#C0C0C0">China</th>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#C0C0C0">allEducation</th>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="55.0">55</td>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="20.0">20</td>
+</tr>
+<tr>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#F0F0F0">Columbia</th>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#F0F0F0">allEducation</th>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="57.0">57</td>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="2.0">2</td>
+</tr>
+<tr>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#C0C0C0">Cuba</th>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#C0C0C0">allEducation</th>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="70.0">70</td>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="25.0">25</td>
+</tr>
+<tr>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#F0F0F0">Dominican-Republic</th>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#F0F0F0">allEducation</th>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="68.0">68</td>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="2.0">2</td>
+</tr>
+<tr>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#C0C0C0">Ecuador</th>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#C0C0C0">allEducation</th>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="24.0">24</td>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="4.0">4</td>
+</tr>
+<tr>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#F0F0F0">El-Salvador</th>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#F0F0F0">allEducation</th>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="97.0">97</td>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="9.0">9</td>
+</tr>
+<tr>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#C0C0C0">England</th>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#C0C0C0">allEducation</th>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="60.0">60</td>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="30.0">30</td>
+</tr>
+<tr>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#F0F0F0">France</th>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#F0F0F0">allEducation</th>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="17.0">17</td>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="12.0">12</td>
+</tr>
+<tr>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#C0C0C0">Germany</th>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#C0C0C0">allEducation</th>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="93.0">93</td>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="44.0">44</td>
+</tr>
+<tr>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#F0F0F0">Greece</th>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#F0F0F0">allEducation</th>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="21.0">21</td>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="8.0">8</td>
+</tr>
+<tr>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#C0C0C0">Guatemala</th>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#C0C0C0">allEducation</th>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="61.0">61</td>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="3.0">3</td>
+</tr>
+<tr>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#F0F0F0">Haiti</th>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#F0F0F0">allEducation</th>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="40.0">40</td>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="4.0">4</td>
+</tr>
+<tr>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#C0C0C0">Holand-Netherlands</th>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#C0C0C0">allEducation</th>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="1.0">1</td>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right"/>
+</tr>
+<tr>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#F0F0F0">Honduras</th>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#F0F0F0">allEducation</th>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="12.0">12</td>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="1.0">1</td>
+</tr>
+<tr>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#C0C0C0">Hong</th>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#C0C0C0">allEducation</th>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="14.0">14</td>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="6.0">6</td>
+</tr>
+<tr>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#F0F0F0">Hungary</th>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#F0F0F0">allEducation</th>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="10.0">10</td>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="3.0">3</td>
+</tr>
+<tr>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#C0C0C0">India</th>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#C0C0C0">allEducation</th>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="60.0">60</td>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="40.0">40</td>
+</tr>
+<tr>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#F0F0F0">Iran</th>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#F0F0F0">allEducation</th>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="25.0">25</td>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="18.0">18</td>
+</tr>
+<tr>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#C0C0C0">Ireland</th>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#C0C0C0">allEducation</th>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="19.0">19</td>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="5.0">5</td>
+</tr>
+<tr>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#F0F0F0">Italy</th>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#F0F0F0">allEducation</th>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="48.0">48</td>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="25.0">25</td>
+</tr>
+<tr>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#C0C0C0">Jamaica</th>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#C0C0C0">allEducation</th>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="71.0">71</td>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="10.0">10</td>
+</tr>
+<tr>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#F0F0F0">Japan</th>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#F0F0F0">allEducation</th>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="38.0">38</td>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="24.0">24</td>
+</tr>
+<tr>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#C0C0C0">Laos</th>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#C0C0C0">allEducation</th>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="16.0">16</td>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="2.0">2</td>
+</tr>
+<tr>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#F0F0F0">Mexico</th>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#F0F0F0">allEducation</th>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="610.0">610</td>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="33.0">33</td>
+</tr>
+<tr>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#C0C0C0">Nicaragua</th>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#C0C0C0">allEducation</th>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="32.0">32</td>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="2.0">2</td>
+</tr>
+<tr>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#F0F0F0">Outlying-US(Guam-USVI-etc)</th>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#F0F0F0">allEducation</th>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="14.0">14</td>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right"/>
+</tr>
+<tr>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#C0C0C0">Peru</th>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#C0C0C0">allEducation</th>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="29.0">29</td>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="2.0">2</td>
+</tr>
+<tr>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#F0F0F0">Philippines</th>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#F0F0F0">allEducation</th>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="137.0">137</td>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="61.0">61</td>
+</tr>
+<tr>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#C0C0C0">Poland</th>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#C0C0C0">allEducation</th>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="48.0">48</td>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="12.0">12</td>
+</tr>
+<tr>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#F0F0F0">Portugal</th>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#F0F0F0">allEducation</th>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="33.0">33</td>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="4.0">4</td>
+</tr>
+<tr>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#C0C0C0">Puerto-Rico</th>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#C0C0C0">allEducation</th>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="102.0">102</td>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="12.0">12</td>
+</tr>
+<tr>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#F0F0F0">Scotland</th>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#F0F0F0">allEducation</th>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="9.0">9</td>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="3.0">3</td>
+</tr>
+<tr>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#C0C0C0">South</th>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#C0C0C0">allEducation</th>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="64.0">64</td>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="16.0">16</td>
+</tr>
+<tr>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#F0F0F0">Taiwan</th>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#F0F0F0">allEducation</th>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="31.0">31</td>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="20.0">20</td>
+</tr>
+<tr>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#C0C0C0">Thailand</th>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#C0C0C0">allEducation</th>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="15.0">15</td>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="3.0">3</td>
+</tr>
+<tr>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#F0F0F0">Trinadad&amp;Tobago</th>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#F0F0F0">allEducation</th>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="17.0">17</td>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="2.0">2</td>
+</tr>
+<tr>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#C0C0C0">United-States</th>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#C0C0C0">allEducation</th>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\,\#\#0" x:num="21999.0">21,999</td>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\,\#\#0" x:num="7171.0">7,171</td>
+</tr>
+<tr>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#F0F0F0">Vietnam</th>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#F0F0F0">allEducation</th>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="62.0">62</td>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="5.0">5</td>
+</tr>
+<tr>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#C0C0C0">Yugoslavia</th>
+<th rowspan="1" colspan="1" nowrap="nowrap" vertical-align="top" text-align="left" class="row-heading" bgcolor="#C0C0C0">allEducation</th>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="10.0">10</td>
+<td bgcolor="#FFFFFF" nowrap="nowrap" valign="top" align="right" class="dataitem" style="mso-number-format:\#\#0" x:num="6.0">6</td>
+</tr>
+</table>
+</body>
+</html>
